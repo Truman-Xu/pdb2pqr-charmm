@@ -28,6 +28,10 @@
         </atom>
     </residue>
     <residue>
+        <name>[NC]?LYN$</name>
+        <useresname>LSN</useresname>
+    </residue>
+    <residue>
         <name>[NC]?(?!ALA$)...$</name> <!-- ALA has HB1, HB2, HB3 -->
         <exclud>ALA</exclud>
         <atom>   
@@ -94,6 +98,27 @@
         <atom>
             <name>HG13</name>
             <useatomname>HG11</useatomname>
+        </atom>
+    </residue>
+    <residue>
+    <!-- neutral lysine is coded as LSN in CHARMM -->
+        <name>LYN</name>            
+        <useresname>LSN</useresname>
+        <atom>
+            <name>HB3</name>
+            <useatomname>HB1</useatomname>
+        </atom>
+        <atom>
+            <name>HG3</name>
+            <useatomname>HG1</useatomname>
+        </atom>
+        <atom>
+            <name>HD3</name>
+            <useatomname>HD1</useatomname>
+        </atom>
+        <atom>
+            <name>HE3</name>
+            <useatomname>HE1</useatomname>
         </atom>
     </residue>
     <residue>
